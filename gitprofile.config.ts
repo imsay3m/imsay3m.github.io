@@ -171,11 +171,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'sunset',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -188,37 +188,37 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      // 'cupcake',
-      // 'bumblebee',
-      // 'emerald',
-      // 'corporate',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
       'synthwave',
-      // 'retro',
-      // 'cyberpunk',
-      // 'valentine',
+      'retro',
+      'cyberpunk',
+      'valentine',
       'halloween',
-      // 'garden',
-      // 'forest',
-      // 'aqua',
+      'garden',
+      'forest',
+      'aqua',
       'lofi',
-      // 'pastel',
-      // 'fantasy',
-      // 'wireframe',
+      'pastel',
+      'fantasy',
+      'wireframe',
       'black',
-      // 'luxury',
-      // 'dracula',
-      // 'cmyk',
-      // 'autumn',
-      // 'business',
-      // 'acid',
-      // 'lemonade',
-      // 'night',
-      // 'coffee',
-      // 'winter',
-      // 'dim',
-      // 'nord',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'dim',
+      'nord',
       'sunset',
-      // 'procyon',
+      'procyon',
     ],
 
     // Custom theme, applied to `procyon` theme
@@ -240,7 +240,7 @@ const CONFIG = {
       rel="noreferrer"
     >Sayem</a> `,
 
-  enablePWA: false,
+  enablePWA: true,
 };
 
 export default CONFIG;
