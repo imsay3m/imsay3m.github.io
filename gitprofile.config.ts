@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['imsay3m/cinecraze-client', 'imsay3m/cinecraze-server']
@@ -58,23 +58,23 @@ const CONFIG = {
   },
   social: {
     linkedin: 'imsay3m',
-    twitter: 'imsay3m',
+    twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: 'imsay3m',
     instagram: '',
-    reddit: 'imsay3m',
+    reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'imsay3m',
-    dev: 'imsay3m',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: 'imsay3m',
-    website: '',
+    website: 'imsay3m.github.io',
     phone: '',
     email: 'ahmedsayem730@gmail.com',
   },
@@ -171,11 +171,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'sunset',
+    defaultTheme: 'night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
