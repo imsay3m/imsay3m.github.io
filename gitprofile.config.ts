@@ -116,12 +116,8 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'CSE Fundamentals with Phitron',
-      body: '🔹 Proficiency in languages such as C, C++, Python, and JavaScript.
-🔹 Mastery of Data Structures and Algorithms for efficient problem-solving.
-🔹 Comprehensive understanding of Object-Oriented Programming principles.
-🔹 Hands-on experience with databases including MySQL and PostgreSQL.
-🔹 Software development skills with HTML, CSS, Bootstrap, Tailwind CSS, JavaScript and Django REST Framework.',
+      name: 'Phitron',
+      body: 'CSE Fundamentals with Phitron',
       year: 'May 2024',
       link: 'https://phitron.io/verification?validationNumber=PHBATCH36140991010',
     },
