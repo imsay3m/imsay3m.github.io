@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
@@ -74,7 +74,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: 'imsay3m',
-    website: 'imsay3m.github.io',
+    website: 'https://imsay3m.github.io',
     phone: '',
     email: 'ahmedsayem730@gmail.com',
   },
@@ -232,13 +232,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with GitProfile and ❤️. Modified By <a 
-      class="text-primary" href="https://github.com/imsay3m/"
-      target="_blank"
-      rel="noreferrer"
-    >Sayem</a> `,
 
   enablePWA: true,
 };
