@@ -171,7 +171,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'sunset',
+    defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -200,7 +200,7 @@ const CONFIG = {
       // 'garden',
       // 'forest',
       // 'aqua',
-      // 'lofi',
+      'lofi',
       // 'pastel',
       // 'fantasy',
       // 'wireframe',
@@ -240,7 +240,7 @@ const CONFIG = {
       rel="noreferrer"
     >Sayem</a> `,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
