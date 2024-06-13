@@ -32,28 +32,28 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        // {
-        //   title: 'Project Name',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-        //   imageUrl:
-        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-        //   link: 'https://example.com',
-        // },
-        // {
-        //   title: 'Project Name',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-        //   imageUrl:
-        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-        //   link: 'https://example.com',
-        // },
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/imsay3m/cinecraze-client',
+        },
+        {
+          title: 'Project Name',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/imsay3m/shonali-krishi',
+        },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Sheikh Eismile Ahmed Sayem',
-    description: 'imsay3m',
+    title: 'Sheikh Eismile Ahmed Sayem',
+    description: 'Portfolio Of imsay3m',
     imageURL: 'https://avatars.githubusercontent.com/u/86166807',
   },
   social: {
@@ -96,7 +96,8 @@ const CONFIG = {
     'CSS',
     'Bootstrap',
     'Tailwindcss',
-    'SCSS',
+    'SASS',
+    'Figma',
   ],
   experiences: [
     // {
@@ -175,7 +176,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -193,19 +194,19 @@ const CONFIG = {
       'emerald',
       'corporate',
       'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
+      // 'retro',
+      // 'cyberpunk',
+      // 'valentine',
       'halloween',
       'garden',
-      'forest',
+      // 'forest',
       'aqua',
       'lofi',
       'pastel',
       'fantasy',
       'wireframe',
       'black',
-      'luxury',
+      // 'luxury',
       'dracula',
       'cmyk',
       'autumn',
@@ -213,7 +214,7 @@ const CONFIG = {
       'acid',
       'lemonade',
       'night',
-      'coffee',
+      // 'coffee',
       'winter',
       'dim',
       'nord',
