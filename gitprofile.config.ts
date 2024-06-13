@@ -33,20 +33,36 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'CineCraze',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/imsay3m/cinecraze-client',
+          link: 'https://cinecraze-client.vercel.app/',
         },
         {
-          title: 'Project Name',
+          title: 'Shonali Krishi',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://github.com/imsay3m/shonali-krishi',
+        },
+        {
+          title: 'Omni Listing',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/imsay3m/omniListingAPI',
+        },
+        {
+          title: 'Fluffypaw',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://imsay3m.github.io/fluffypaw-frontend/',
         },
       ],
     },
@@ -189,8 +205,8 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
+      // 'cupcake',
+      // 'bumblebee',
       'emerald',
       'corporate',
       'synthwave',
@@ -203,7 +219,7 @@ const CONFIG = {
       'aqua',
       'lofi',
       'pastel',
-      'fantasy',
+      // 'fantasy',
       'wireframe',
       'black',
       // 'luxury',
@@ -212,11 +228,11 @@ const CONFIG = {
       'autumn',
       'business',
       'acid',
-      'lemonade',
+      // 'lemonade',
       'night',
       // 'coffee',
-      'winter',
-      'dim',
+      // 'winter',
+      // 'dim',
       'nord',
       'sunset',
       'procyon',
