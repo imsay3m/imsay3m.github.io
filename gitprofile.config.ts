@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'CineCraze',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '	CineCraze is a movie and series downloading and streaming website with a rating system, featuring role-based access users. The backend is built with Django Rest API, while the frontend uses TailwindCSS, DaisyUI, and SwiperJS, providing a seamless and visually appealing user experience.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://cinecraze-client.vercel.app/',
@@ -43,7 +43,7 @@ const CONFIG = {
         {
           title: 'Shonali Krishi',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '	This e-commerce platform bridges the gap between rural producers and urban consumers, fostering sustainability and economic equity.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://github.com/imsay3m/shonali-krishi',
@@ -59,7 +59,7 @@ const CONFIG = {
         {
           title: 'Fluffypaw',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '	I`ve built a Pet Adoption System using Django Rest API framework to make adopting pets easier and more efficient. It allows users to browse pets, then adopt a pet as user`s like. This system aims to streamline the adoption process, ensuring a smoother experience for both pets and potential adopters.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://imsay3m.github.io/fluffypaw-frontend/',
