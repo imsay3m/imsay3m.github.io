@@ -91,12 +91,12 @@ const CONFIG = {
     skype: '',
     telegram: 'imsay3m',
     website: 'https://imsay3m.github.io',
-    phone: '',
+    phone: '+8801713807932',
     email: 'ahmedsayem730@gmail.com',
   },
   resume: {
     fileUrl:
-      '#', // Empty fileUrl will hide the `Download Resume` button.
+      'https://imsay3m.eu.org/0:/Phitron/job-placement/jp-task/online-resume/sayem-resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C',
@@ -184,7 +184,7 @@ const CONFIG = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '5050582',
     snippetVersion: 6,
   },
   themeConfig: {
